@@ -26,7 +26,7 @@ const ProgressChartModal = ({ onClose, tasks }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white rounded-lg p-6 w-1/3">
+      <div className="bg-white rounded-lg p-6 w-[90%] lg:w-1/3">
         <h3 className="text-xl font-bold mb-4">Monthly Progress</h3>
         <Pie data={data} />
         <button

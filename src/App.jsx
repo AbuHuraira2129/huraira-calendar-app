@@ -76,7 +76,7 @@ const App = () => {
     <div className="min-h-screen bg-gradient-to-r from-blue-50 to-indigo-50 p-8">
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8 text-indigo-600">
-          Interactive Task Calendar
+          Taskify Calendar - By Huraira
         </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
